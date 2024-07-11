@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+.inter-font{
+    font-family: "Inter", sans-serif;
+}
+
+.raleway-font{
+    font-family: "Raleway", sans-serif;
+}
+
+.main-color{
+    color:rgb(29, 209, 0);
+}
+.button{
+    border:1px solid rgb(29, 209, 0) ;
+    border-radius: 5px;
+    background: rgba(29, 209, 0, 0.1);
+}
+.coupon1{
+    background: rgb(255, 191, 15);
+}
+.coupon2{
+    background: rgb(247, 140, 156);
+}
+
+.input{
+    border-bottom:dotted ;
+    
+
+}
+
+dialog::backdrop{
+    background: rgba(70, 68, 68, 0.5);
+}
+
+/* @media screen and (max-width:768px) {
+    .divider-img{
+    
+    }
+    
+} */
